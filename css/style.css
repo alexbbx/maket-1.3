@@ -1,10 +1,16 @@
 *{margin: 0;
 padding: 0;
 }
+@font-face {
+    font-family: "TTLakes";
+    font-style: normal;
+    font-weight: 400;
+    src: local("TTLakes"),
+    url("/fonts/TTLakes-Medium.woff") format(woff);
+  }
 body {
     font-family: "TT Lakes", sans-serif;
     width: auto;
-
 }
 main {
     background-color: #F8F8F8
@@ -24,12 +30,10 @@ main {
 .menu__list--burger {
     margin-left: 16px;
 }
-
 .menu__list--group {
     margin-right: auto;
     margin-left: 21px;
 }
-
 .menu__list--search {
     margin-right: 16px;
     margin-left: 16px;
@@ -49,7 +53,6 @@ main {
     margin-right: 16px;
     margin-left: 16px;
     display: none;
-
 }
 .menu__list--call {
     display: none;
@@ -59,9 +62,6 @@ main {
 .menu__list--chat {
     display: none;
 }
-
-
-
 .header {
     display: flex;
     align-items: center;
@@ -74,8 +74,6 @@ main {
     height: 40px;
     margin-left: 12px;
 }
-
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -88,7 +86,6 @@ main {
     color: #7E7E82;
     font-size: 16px;
 }
-
 .nav--active {
     border: #B8FFEC solid 2px;
     white-space: nowrap;
@@ -101,45 +98,33 @@ main {
 .nav--second {
     margin-right: 20px;
 }
-
 .nav--third {
     margin-right: 20px;
 }
-
 .nav--fourth {
     margin-right: 20px;
 }
-
 .nav--fifth {
     margin-right: 20px;
 }
-
-
-
 .nav::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
-
 .blog {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-
-
-
 }
-
 .blog__link {
     display: flex;
     align-items: center;
     margin: 10px 0 0 0;
 }
 .blog__next {
-
+    margin-left: 16px;
     font-weight: 600;
 }
-
 .blog__text {
     font-size: 14px;
     text-align: left;
@@ -149,7 +134,7 @@ main {
     height: 90px;
 
 }
-.blog__image--size {
+.blog__img--size {
     margin-top: 50px;
     width: 320px;
     height: 176px;
@@ -200,7 +185,7 @@ main {
     .menu__list--burger {
         margin-left: 24px;
     }
-    .blog__image--size {
+    .blog__img--size {
         border-radius: 6px;
         margin-top: 40px;
         margin-bottom: 26px;
@@ -226,7 +211,6 @@ main {
         margin-left: 16px;
         margin-right: 25px;
     }
-
     .nav--third {
         margin-right: 25px;
     }
@@ -234,11 +218,9 @@ main {
     .nav--fourth {
         margin-right: 21px;
     }
-
     .nav--fifth {
         margin-right: 25px;
     }
-
 }
 @media (min-width: 1120px) {
     .menu {
@@ -309,7 +291,6 @@ main {
     .header {
         display: none;
     }
-
     .nav {
         margin-left: 32px;
         margin-top: 0;
@@ -321,20 +302,16 @@ main {
     .nav--active{
         margin-left: 0;
         margin-right: 19px;
-
     }
     .nav--second{
         margin-left: 14px;
         margin-right: 34px;
-
     }
     .nav--third{
         margin-right: 27px;
-
     }
     .nav--fourth{
         margin-right: 21px;
-
     }
     .nav--fifth{
         margin-right: 37px;
@@ -350,8 +327,7 @@ main {
         width: 490px;
         height: 160px;
     }
-
-    .blog__image--size {
+    .blog__img--size {
         border-radius: 6px;
         margin-top: 10px;
         margin-bottom: 49px;
